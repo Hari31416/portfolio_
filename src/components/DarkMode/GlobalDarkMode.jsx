@@ -9,11 +9,11 @@ import UI from "./UI";
 import "./DarkMode.css";
 
 function GlobalDarkMode() {
-  const [isDarkModeActive, setIsDarkModeActive] = useState(false);
+  const [isDarkModeActive, setIsDarkModeActive] = useState(true);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [brightness, setBrightness] = useState(100);
-  const [contrast, setContrast] = useState(90);
-  const [sepia, setSepia] = useState(10);
+  const [brightness, setBrightness] = useState(112);
+  const [contrast, setContrast] = useState(137);
+  const [sepia, setSepia] = useState(0);
 
   const toggleDarkMode = async () => {
     try {
