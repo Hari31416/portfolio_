@@ -2,7 +2,7 @@
     bottom: 0 !important;
     color: #f5f5f5;
     list-style-type: none;
-    horiz-align: center;
+    justify-content: center;
     vertical-align: center;
     align-items: center;
     display: inline-block;
@@ -36,7 +36,6 @@
     overflow: hidden;
     vertical-align:middle;
     color: #f5f5f5;
-    background-color: #66806A;
     padding: 5px;
 }
 
