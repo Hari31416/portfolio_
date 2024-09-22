@@ -1,7 +1,9 @@
-import {BiGitRepoForked} from "react-icons/bi";
-import {AiFillGithub, AiFillEye} from "react-icons/ai";
-import {ImBook} from "react-icons/im";
+import { BiGitRepoForked } from "react-icons/bi";
+import { AiFillGithub, AiFillEye } from "react-icons/ai";
+import { ImBook } from "react-icons/im";
 
+import TorchLight from "../images/torchlight.png";
+import transformer from "../images/transformer.png";
 import FoodVision from "../images/food_vision.png";
 import ReVision from "../images/revision.webp";
 import NNet from "../images/nnet.png";
@@ -21,6 +23,26 @@ import SpeechRecognition from "../images/speech.png";
 import React from "react";
 const projectConfig = [
   {
+    id: "project-17",
+    title: "TorchLight",
+    links: [
+      {
+        name: "repo",
+        url: "https://github.com/Hari31416/TorchLight",
+        icon: <AiFillGithub />,
+      },
+      {
+        name: "fork",
+        url: "https://github.com/Hari31416/TorchLight/fork",
+        icon: <BiGitRepoForked />,
+      },
+    ],
+    image: TorchLight,
+    description:
+      "A librray to visualize features learned by CNNs by optimizing images to maximize the activation to obtain arbitrary objectives.",
+    target: "_blank",
+  },
+  {
     id: "project-15",
     title: "ReVision",
     links: [
@@ -34,10 +56,35 @@ const projectConfig = [
         url: "https://hari31416.notion.site/10a70e2c390f4e119cb709b712d3b168?v=8224d1d9652e48fd83100ab516a228d3&pvs=74",
         icon: <AiFillEye />,
       },
+      {
+        name: "fork",
+        url: "https://github.com/Hari31416/ReVision/fork",
+        icon: <BiGitRepoForked />,
+      },
     ],
     image: ReVision,
     description:
       "Implementing various groundbreaking computer vision architecture from scratch using Tensorflow.",
+    target: "_blank",
+  },
+  {
+    id: "project-16",
+    title: "Transformer From Scratch",
+    links: [
+      {
+        name: "repo",
+        url: "https://github.com/Hari31416/transformer_from_scratch",
+        icon: <AiFillGithub />,
+      },
+      {
+        name: "fork",
+        url: "https://github.com/Hari31416/transformer_from_scratch/fork",
+        icon: <BiGitRepoForked />,
+      },
+    ],
+    image: transformer,
+    description:
+      "Implementing a encoder-decoder and decoder-only transformer architecture from scratch using PyTorch and training it on a language translation and lyrics generation task.",
     target: "_blank",
   },
   {
@@ -332,4 +379,4 @@ const projectConfig = [
   },
 ];
 
-export default projectConfig
+export default projectConfig;
